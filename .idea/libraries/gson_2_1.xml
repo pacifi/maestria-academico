@@ -2,7 +2,6 @@
   <library name="gson-2.1">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/gson-2.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-5.1.26.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
