@@ -7,15 +7,151 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f462c817-65d5-4486-af65-1f36c428fbbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pacifi/academico/database/MySQLAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pacifi/academico/database/DBCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pacifi/academico/servicios/EstudianteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Academico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Academico.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/libs/mysql-connector-java-5.1.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-5.1.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/classes/com/pacifi/academico/controlador/AcademicoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/classes/com/pacifi/academico/controlador/AcademicoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/classes/com/pacifi/academico/database/MySQLAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/libs/academico.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/libs/gson-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Academico_war_exploded/WEB-INF/libs/mysql-connector-java-5.1.46.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Academico/com/pacifi/academico/controlador/AcademicoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Academico/com/pacifi/academico/controlador/AcademicoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Academico/com/pacifi/academico/database/MySQLAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pacifi/academico/database/MySQLAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/libs/academico.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/academico.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/libs/gson-2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-5.1.46.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/.jsbeautifyrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/css/sb-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/css/sb-admin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/js/sb-admin-charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/js/sb-admin-charts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/js/sb-admin-datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/js/sb-admin-datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/js/sb-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/js/sb-admin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/blank.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/cards.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/charts.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/forgot-password.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/css/core.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/css/custom.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/js/core.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/js/custom.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/modals/logout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/navbar.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/includes/scroll-to-top.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/login.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/navbar.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/register.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/pug/tables.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/navbar/_navbar_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/navbar/_navbar_fixed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/navbar/_navbar_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/navbar/_navbar_static.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/navbar/_navbar_toggle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/scss/sb-admin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/chart.js/Chart.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/chart.js/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/chart.js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/chart.js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/datatables/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/datatables/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/datatables/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +180,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="-99">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -79,8 +215,8 @@
       <file leaf-file-name="AcademicoServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="198">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +224,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQLAccess.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/database/MySQLAccess.java">
+      <file leaf-file-name="DBCon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/database/DBCon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+              <folding>
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prueba.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/controlador/Prueba.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstudianteDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/servicios/EstudianteDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +275,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>L</find>
+      <find>no s</find>
+      <find>str.push(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,12 +285,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/pacifi/academico/entidad/Persona.java" />
         <option value="$PROJECT_DIR$/src/com/pacifi/academico/entidad/Estudiante.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java" />
         <option value="$PROJECT_DIR$/src/com/pacifi/academico/database/MySQLAccess.java" />
+        <option value="$PROJECT_DIR$/src/com/pacifi/academico/servicios/EstudianteServicio.java" />
+        <option value="$PROJECT_DIR$/src/com/pacifi/academico/database/DBConn.java" />
+        <option value="$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/pacifi/academico/database/DBCon.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/pacifi/academico/servicios/EstudianteDao.java" />
+        <option value="$PROJECT_DIR$/src/com/pacifi/academico/controlador/Prueba.java" />
       </list>
     </option>
   </component>
@@ -143,9 +313,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/web/admin/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -159,8 +327,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,13 +356,6 @@
             <path>
               <item name="Academico" type="b2602c69:ProjectViewProjectNode" />
               <item name="Academico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="academico" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Academico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Academico" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,21 +369,18 @@
               <item name="Academico" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Academico" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="Academico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,11 +388,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-5.1.46.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,7 +406,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Prueba">
+    <configuration name="DBCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pacifi.academico.database.DBCon" />
+      <module name="Academico" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pacifi.academico.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pacifi.academico.controlador.Prueba" />
+      <module name="Academico" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pacifi.academico.controlador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -329,6 +508,17 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="Application.Prueba" />
+      <item itemvalue="Application.DBConn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Prueba" />
+        <item itemvalue="Application.DBConn" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -345,14 +535,16 @@
       <workItem from="1526503616197" duration="3468000" />
       <workItem from="1526510818984" duration="157000" />
       <workItem from="1526614891010" duration="4273000" />
+      <workItem from="1526708447757" duration="8011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9261000" />
+    <option name="totallyTimeSpent" value="17272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
+    <frame x="0" y="-10" width="1366" height="778" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -361,22 +553,22 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="3" weight="0.329429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328594" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41353384" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32932332" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7085202" visible="true" weight="0.26969698" />
-      <window_info id="Web" order="2" sideWeight="0.29147983" side_tool="true" visible="true" weight="0.26969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42812008" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32829046" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7044199" visible="true" weight="0.22382398" />
+      <window_info id="Web" order="2" sideWeight="0.29558012" side_tool="true" visible="true" weight="0.22382398" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,6 +586,56 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/entidad/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/entidad/Estudiante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/database/DBCon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -497,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/entidad/Persona.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -524,26 +759,62 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c5535ff6-075a-4ec1-a226-2b6cda802da3/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c5535ff6-075a-4ec1-a226-2b6cda802da3/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/servicios/EstudianteServicio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="240">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/database/MySQLAccess.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/database/DBCon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/servicios/EstudianteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/controlador/AcademicoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pacifi/academico/controlador/Prueba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
